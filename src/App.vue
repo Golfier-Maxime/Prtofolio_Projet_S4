@@ -7,11 +7,12 @@ import headerVue from "@/components/header.vue"
 
   <div :class="isDark ? 'dark' : ''"> <!--si isDark = true, Dark mode | si isDark = false, Light mode-->
     <headerVue></headerVue>
+    <p>test</p>
 
     <body class="bg-[#eee] dark:bg-[#333] duration-700">
       <!-- Rajouter une transition duration pour une transition de DarkMode à LightMode + douce -->
 
-      <div class="absolute gap-3 flex top-[30px] left-[30px] items-center">
+      <div class=" gap-3 flex top-[30px] left-[30px] items-center">
         <p class="relative text-lg dark:text-white duration-700">Dark Mode</p>
         <!-- Début Bouton Switch -->
         <label
