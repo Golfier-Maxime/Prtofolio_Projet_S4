@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import headerVue from "@/components/header.vue"
+import headerVue from "@/components/header.vue";
+import footerVue from "@/components/footer.vue"
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import headerVue from "@/components/header.vue"
     <headerVue></headerVue>
 
 
-    <body class="bg-[#eee] dark:bg-[#0D1117] duration-700">
+    <body class="bg-B-White dark:bg-[#0D1117] duration-700">
       <!-- Rajouter une transition duration pour une transition de DarkMode à LightMode + douce -->
       <p class="font-bold dark:text-white duration-700">test</p>
       <div class=" gap-3 flex top-[30px] left-[30px] items-center">
@@ -24,6 +25,7 @@ import headerVue from "@/components/header.vue"
       </div>
 
     </body>
+    <footerVue></footerVue>
     <RouterView />
   </div>
 </template>

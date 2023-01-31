@@ -38,7 +38,7 @@ const switchMenu = () => {
                 <span class="h-[2px] bg-Dark-Blue self-end transition-all dark:bg-white"
                     :class="menuOpen && ` -rotate-45 absolute w-full`, !menuOpen && `w-2/3`"></span>
             </div>
-            <ul class="fixed flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-6 items-center dark:bg-Dark-Blue "
+            <ul class="fixed flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-10 items-center dark:bg-Dark-Blue "
                 :class="menuOpen && `translate-x-0 md:translate-x-0`">
                 <li class="md:hidden">
                     <RouterLink @click="switchMenu" to="/" class="dark:text-white duration-700">Accueil</RouterLink>
@@ -89,10 +89,6 @@ nav .liste_container:hover .liste {
 </style>
 
 <!-- <style>
-.bg-topbar {
-    background-image: linear-gradient(90deg, #d946ef, #dc2626, #fb923c);
-}
-
 .btn-header:hover {
     text-align: center;
     width: 100px;
