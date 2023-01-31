@@ -9,10 +9,19 @@ module.exports = withAnimations({
   darkMode: 'class',
   theme: {
     extend: {
-      animation:{
+      "colors": {
+        "Dark-Blue": "#161B22",
+        "clair": "#eeedf0",
+        "tonic": "#b8ffd0",
+        "mainColor": "#555cc5",
+        "SecondaryColor": "#cb69c1",
+        "ThirdColor": "#6c72cb"
+      },
+
+      animation: {
       }
     },
-    },
+  },
   plugins: [],
 }
 );

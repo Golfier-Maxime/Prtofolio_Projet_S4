@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('/src/font/MonoLisa-Regular.woff2') format('woff2'),
+        url('/src/font/MonoLisa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
+    font-family: 'MonoLisa';
 
-    min-height: 100vh;
-    min-width: 100vw;
-
-    align-items: center;
 }
 
 /* BUTTON DARK MODE */
