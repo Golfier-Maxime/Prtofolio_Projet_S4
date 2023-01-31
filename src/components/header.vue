@@ -55,16 +55,6 @@ const switchMenu = () => {
                     <RouterLink @click="switchMenu" to="/collection" class="dark:text-white duration-700">Contact
                     </RouterLink>
                 </li>
-                <li v-if="user">
-                    <RouterLink @click="switchMenu" to="Profil">
-                        <img src="/images/Profil.svg" alt="">
-                    </RouterLink>
-                </li>
-                <li v-else>
-                    <RouterLink @click="switchMenu" to="/login">
-                        <img src="/images/Profil.svg" alt="">
-                    </RouterLink>
-                </li>
             </ul>
         </nav>
     </header>
