@@ -9,9 +9,9 @@
         </div>
         <div class="">
             <p class="dark:text-white duration-700">Kakuhen</p>
-            <img src="public\Linkedin.svg" alt="">
-            <img src="public\Twitter.svg" alt="">
-            <img src="public\Github.svg" alt="">
+            <img src="src\assets\Linkedin.svg" alt="">
+            <img src="src\assets\Twitter.svg" alt="">
+            <img src="src\assets\Github.svg" alt="">
         </div>
     </footer>
 </template>
