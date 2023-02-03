@@ -13,6 +13,91 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('/src/font/brandon-grotesque-black-58a8a3e824392-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-black-58a8a3e824392-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquebold_italic';
+    src: url('/src/font/brandon-grotesque-bold-italic-58a8a48221563-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-bold-italic-58a8a48221563-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('/src/font/brandon-grotesque-light-58a8a4b38001d-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-light-58a8a4b38001d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight_italic';
+    src: url('/src/font/brandon-grotesque-light-italic-58a8a4ccb88be-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-light-italic-58a8a4ccb88be-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueMdIt';
+    src: url('/src/font/brandon-grotesque-medium-italic-58a8a3c40866a-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-medium-italic-58a8a3c40866a-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueRgIt';
+    src: url('/src/font/brandon-grotesque-regular-italic-58a8a456c4724-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-regular-italic-58a8a456c4724-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquethin_italic';
+    src: url('/src/font/brandon-grotesque-thin-italic-58a8a3a8861fe-webfont.woff2') format('woff2'),
+        url('/src/font/brandon-grotesque-thin-italic-58a8a3a8861fe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.titre {
+    font-family: 'brandon_grotesqueblack';
+}
+
 body {
     font-family: 'MonoLisa';
 

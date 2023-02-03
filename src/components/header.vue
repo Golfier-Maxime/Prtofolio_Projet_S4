@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import LogoMG from './logo/logo.vue'
 const props = defineProps({
     user: { type: Object, default: () => { } }
 })
@@ -9,27 +10,12 @@ const switchMenu = () => {
 }
 </script>
 
-<!-- <template>
-    <div class="h-[6px] top-0 left-0  bg-topbar "></div>
-    <div class="h-[50px] flex justify-between bg-white  dark:bg-[#161B22] ">
-        <div class="">
-            <p class="dark:text-white duration-700">Kakuhen</p>
-        </div>
-        <div class="flex gap-4">
-            <p class="btn-header  dark:text-white duration-700">Accueil</p>
-            <p class="dark:text-white duration-700">Projets</p>
-            <p class="dark:text-white duration-700">A Propos</p>
-            <p class="dark:text-white duration-700">Contact</p>
-        </div>
-    </div>
-</template> -->
-
 <template>
     <div class="h-[6px] top-0 left-0  bg-topbar "></div>
     <header
         class=" bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px] relative dark:bg-Dark-Blue">
         <router-link to="/" class="w-24">
-            <p class="dark:text-white duration-700">Kakuhen</p>
+            <LogoMG class="w-10 h-10" />
         </router-link>
         <nav class="fixed right-4 md:right-9 lg:right-40 ">
             <div class="flex relative z-50 md:hidden w-8 h-3 flex-col justify-between" @click="switchMenu">

@@ -9,10 +9,8 @@ import footerVue from "@/components/footer.vue"
   <div :class="isDark ? 'dark' : ''"> <!--si isDark = true, Dark mode | si isDark = false, Light mode-->
     <headerVue></headerVue>
 
-
     <body class="bg-B-White dark:bg-[#0D1117] duration-700">
       <!-- Rajouter une transition duration pour une transition de DarkMode à LightMode + douce -->
-      <p class="font-bold dark:text-white duration-700">test</p>
       <div class=" gap-3 flex top-[30px] left-[30px] items-center">
         <p class="relative text-lg dark:text-white duration-700">Dark Mode</p>
         <!-- Début Bouton Switch -->
@@ -23,10 +21,11 @@ import footerVue from "@/components/footer.vue"
         </label>
         <!-- Fin Bouton Switch -->
       </div>
+      <RouterView />
 
     </body>
     <footerVue></footerVue>
-    <RouterView />
+
   </div>
 </template>
 
