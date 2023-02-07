@@ -12,7 +12,7 @@
                     <h1 class=" dark:text-white duration-700">Etudiant Web devellopement</h1>
                 </div>
                 <div class="flex justify-center">
-                    <img class="w-[300px] rounded-lg " src="/images/Moi.PNG" alt="">
+                    <img class="w-[300px] rounded-lg " src="public/images/Moi.PNG" alt="">
                 </div>
                 <div class="ml-4 mr-4">
                     <div>
