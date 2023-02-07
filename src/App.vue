@@ -10,12 +10,12 @@ import LogoLight from '@/components/logo/lighttheme.vue'
   <div :class="isDark ? 'dark' : ''"> <!--si isDark = true, Dark mode | si isDark = false, Light mode-->
     <headerVue></headerVue>
 
-    <body class="bg-B-White dark:bg-[#0D1117] duration-700">
+    <div class="pt-[88px] bg-B-White dark:bg-[#0D1117] duration-700">
       <LogoLight class="w-8" checked @click="isDark = !isDark"></LogoLight>
 
       <RouterView />
 
-    </body>
+    </div>
     <footerVue></footerVue>
 
   </div>

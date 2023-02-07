@@ -11,20 +11,21 @@ const switchMenu = () => {
 </script>
 
 <template>
-    <div class="  h-[6px] top-0 left-0  bg-topbar "></div>
-    <header
-        class=" bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px]  dark:bg-Dark-Blue">
+    <div class="sticky  h-[6px] top-0 left-0  bg-topbar "></div>
+    <header :class="menuOpen && ` `, !menuOpen && `backdrop-blur-sm dark:backdrop-blur-sm`"
+        class="fixed  top-[6px] w-full bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px]  dark:bg-Dark-Blue bg-opacity-75  dark:bg-opacity-75 ">
         <router-link to="/" class="w-24 ">
             <LogoMG class="w-10 h-10" />
         </router-link>
-        <nav class="sticky  right-4 md:right-9 lg:right-40 ">
-            <div class="flex relative z-50 md:hidden w-8 h-3 flex-col justify-between" @click="switchMenu">
+        <nav class=" relative right-4 md:right-9 lg:right-40 ">
+            <div class="flex  z-50 md:hidden w-8 h-3 flex-col justify-between"
+                :class="menuOpen && `fixed right-10`, !menuOpen && `relative`" @click="switchMenu">
                 <span class="w-full h-[2px] bg-Dark-Blue transition-all dark:bg-white"
                     :class="menuOpen && `rotate-45`"></span>
                 <span class="h-[2px] bg-Dark-Blue self-end transition-all dark:bg-white"
                     :class="menuOpen && ` -rotate-45 absolute w-full`, !menuOpen && `w-2/3`"></span>
             </div>
-            <ul class="fixed flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-10 items-center dark:bg-Dark-Blue "
+            <ul class="fixed z-40 flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-10 items-center dark:bg-Dark-Blue dark:lg:bg-transparent "
                 :class="menuOpen && `translate-x-0 md:translate-x-0`">
                 <li class="md:hidden">
                     <RouterLink @click="switchMenu" to="/" class="dark:text-white duration-700">Accueil</RouterLink>
