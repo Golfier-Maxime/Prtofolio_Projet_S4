@@ -11,13 +11,13 @@ const switchMenu = () => {
 </script>
 
 <template>
-    <div class="h-[6px] top-0 left-0  bg-topbar "></div>
+    <div class="  h-[6px] top-0 left-0  bg-topbar "></div>
     <header
-        class=" bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px] relative dark:bg-Dark-Blue">
-        <router-link to="/" class="w-24">
+        class=" bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px]  dark:bg-Dark-Blue">
+        <router-link to="/" class="w-24 ">
             <LogoMG class="w-10 h-10" />
         </router-link>
-        <nav class="fixed right-4 md:right-9 lg:right-40 ">
+        <nav class="sticky  right-4 md:right-9 lg:right-40 ">
             <div class="flex relative z-50 md:hidden w-8 h-3 flex-col justify-between" @click="switchMenu">
                 <span class="w-full h-[2px] bg-Dark-Blue transition-all dark:bg-white"
                     :class="menuOpen && `rotate-45`"></span>
@@ -34,7 +34,7 @@ const switchMenu = () => {
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/socials" class="dark:text-white duration-700">A Propos
+                    <RouterLink @click="switchMenu" to="/socials" class="dark:text-white duration-700">À Propos
                     </RouterLink>
                 </li>
                 <li>
