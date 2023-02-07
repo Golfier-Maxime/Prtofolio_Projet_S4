@@ -12,7 +12,7 @@
                     <h1 class=" dark:text-white duration-700">Etudiant Web devellopement</h1>
                 </div>
                 <div class="flex justify-center">
-                    <img class="w-[300px] rounded-lg " src="/images/Moi.PNG" alt="photo de maxime golfier">
+                    <img class="w-[300px] rounded-lg " src="images\Moi.PNG" alt="photo de maxime golfier">
                 </div>
                 <div class="ml-4 mr-4">
                     <div>
@@ -46,6 +46,12 @@
                         pouvez en apprendre plus encore plus dans la page :
                     <p class="dark:text-white duration-700">À propos</p>
                     </p>
+                </div>
+                <div class="ml-4 mr-4">
+                    <div>
+                        <h2 class="text-lg font-bold dark:text-white duration-700"> Mes Compétences</h2>
+                        <div class="bar-title h-1 mt-1 w-[170px]"></div>
+                    </div>
                 </div>
             </div>
         </div>

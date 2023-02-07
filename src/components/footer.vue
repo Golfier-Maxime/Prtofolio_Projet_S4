@@ -9,7 +9,7 @@ import LogoMG from './logo/logo.vue'
 <template>
     <footer class="bg-white dark:bg-[#0D1117] duration-700 pt-4">
         <div class="flex justify-center">
-            <div class="bar-footer  w-2/3 h-[2px]"></div>
+            <div class="bar-footer  w-2/3 h-[4px]"></div>
         </div>
         <div class="">
             <p class="mt-4 text-center titre tracking-widest text-2xl  dark:text-white duration-700">Maxime GOLFIER</p>
