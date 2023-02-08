@@ -44,7 +44,7 @@ const switchMenu = () => {
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/collection" class="dark:text-white duration-700">Contact
+                    <RouterLink @click="switchMenu" to="/contact" class="dark:text-white duration-700">Contact
                     </RouterLink>
                 </li>
             </ul>
