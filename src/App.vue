@@ -11,7 +11,7 @@ import LogoLight from '@/components/logo/lighttheme.vue'
     <headerVue></headerVue>
 
     <div class="pt-[88px] bg-B-White dark:bg-[#0D1117] duration-700">
-      <LogoLight class="w-8" checked @click="isDark = !isDark"></LogoLight>
+      <LogoLight class="ml-1 w-8 fixed" checked @click="isDark = !isDark"></LogoLight>
 
       <RouterView />
 

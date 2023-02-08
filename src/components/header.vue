@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import LogoMG from './logo/logo.vue'
+import LogoLight from '@/components/logo/lighttheme.vue'
 const props = defineProps({
     user: { type: Object, default: () => { } }
 })
@@ -8,6 +9,8 @@ const menuOpen = ref(false)
 const switchMenu = () => {
     menuOpen.value = !menuOpen.value
 }
+
+
 </script>
 
 <template>
@@ -16,6 +19,7 @@ const switchMenu = () => {
         class="fixed  top-[6px] w-full bg-white   flex justify-between items-center max-w-screen px-9 lg:px-40 z-20 h-16 lg:h-[82px]  dark:bg-Dark-Blue bg-opacity-75  dark:bg-opacity-75 ">
         <router-link to="/" class="w-24 ">
             <LogoMG class="w-10 h-10" />
+
         </router-link>
         <nav class=" relative right-4 md:right-9 lg:right-40 ">
             <div class="flex  z-50 md:hidden w-8 h-3 flex-col justify-between"
@@ -30,6 +34,7 @@ const switchMenu = () => {
                 <li class="md:hidden">
                     <RouterLink @click="switchMenu" to="/" class="dark:text-white duration-700">Accueil</RouterLink>
                 </li>
+
                 <li>
                     <RouterLink @click="switchMenu" to="/create" class="dark:text-white duration-700">Projets
                     </RouterLink>
@@ -75,11 +80,3 @@ nav .liste_container:hover .liste {
 }
 </style>
 
-<!-- <style>
-.btn-header:hover {
-    text-align: center;
-    width: 100px;
-    background: linear-gradient(97.16deg, #8F00FF 9.79%, #FFFFFF 236.98%);
-    overflow: hidden;
-}
-</style> -->

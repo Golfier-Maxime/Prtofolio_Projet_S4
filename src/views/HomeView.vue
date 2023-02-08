@@ -19,13 +19,13 @@ import davinci from '../components/logo/davinci.vue';
             <div class="flex justify-center">
                 <h1 class=" dark:text-white ">Etudiant Web devellopement</h1>
             </div>
-            <div class="flex justify-center">
-                <img class="w-[300px] rounded-lg " src="/images/maximegolfier.png" alt="">
+            <div class="flex justify-center mt-2">
+                <img class="w-[300px] rounded-md " src="/images/maximegolfier.png" alt="">
             </div>
         </div>
         <div class="ml-4 mr-4">
             <div>
-                <h2 class="text-lg font-bold tracking-wider dark:text-white duration-700"> Qui suis-je ?</h2>
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Qui suis-je ?</h2>
                 <div class="bar-title h-1 mt-1 w-[120px]"></div>
             </div>
             <p class="mt-4  dark:text-white duration-700">Etudiant de 23 ans, actuellement en deuxième
@@ -58,7 +58,7 @@ import davinci from '../components/logo/davinci.vue';
         </div>
         <div class="ml-4 mr-4">
             <div>
-                <h2 class="text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Compétences</h2>
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Compétences</h2>
                 <div class="bar-title h-1 mt-1 w-[170px]"></div>
             </div>
             <div class="mt-4 flex flex-col items-center dark:text-white duration-700">
