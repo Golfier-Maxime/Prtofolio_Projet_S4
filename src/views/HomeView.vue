@@ -266,7 +266,7 @@ import davinci from '../components/logo/davinci.vue';
             <div class="flex justify-center">
                 <div class="mt-4 w-60  card-jeu">
                     <a class="  " href="https://tpwordpress.maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/mc.png" alt="">
+                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
                         <div class="mt-1">
                             <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
                             <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
