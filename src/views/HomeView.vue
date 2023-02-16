@@ -194,7 +194,91 @@ import davinci from '../components/logo/davinci.vue';
                 </div>
             </div>
         </div>
-
+        <!-- mes projets -->
+        <div class="ml-4 mr-4 dark:text-white duration-700">
+            <div class="">
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Projets</h2>
+                <div class="bar-title h-1 mt-1 w-[120px]"></div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://maximegolfier.fr/">
+                        <img class="rounded-t-md  " src="/images/UFCarene.png" alt="">
+                        <div class="mt-1">
+                            <p class="text-lg">UFC Arene</p>
+                            <p class="text-xs">Mise en place du site spécialisé sur l'arène d'Unified Champions Club.
+                                Système d'inscription + participation au tournois.
+                                Produit avec <span class="text-blue-400"> wordpress</span> + <span class="text-red-400">
+                                    Sportpress</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://www.axolottapp.maximegolfier.fr/">
+                        <img class="rounded-t-md  " src="/images/axolott.png" alt="">
+                        <div class="mt-1">
+                            <p class="ml-1 mr-1 text-lg">Axolott App</p>
+                            <p class="text-xs ml-1 mr-1">Mise en place d'une application mobile avec interaction et base
+                                de
+                                données.
+                                Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                    class="text-blue-400">Tailwind</span> + <span
+                                    class="text-yellow-400">FireBase</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://www.axolott.maximegolfier.fr/">
+                        <img class="rounded-t-md  " src="/images/axolott.png" alt="">
+                        <div class="mt-1">
+                            <p class="ml-1 mr-1 text-lg">Axolott Landing Page</p>
+                            <p class="ml-1 mr-1 text-xs">Mise en place d'une landing page pour l'application Axolott.
+                                Produit avec <span class="text-blue-400">HTML</span> + <span
+                                    class="text-blue-400">Grid</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://tiktak.maximegolfier.fr/">
+                        <img class="rounded-t-md  " src="/images/tiktak.png" alt="">
+                        <div class="mt-1">
+                            <p class="ml-1 mr-1 text-lg">Tik-Tak</p>
+                            <p class="text-xs ml-1 mr-1">Mise en place d'un site de vente de montre connecter
+                                customisable par le
+                                client.
+                                Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                    class="text-blue-400">tailwind</span> + <span
+                                    class="text-green-400">Supabase</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
+                        <img class="rounded-t-md  " src="/images/mc.png" alt="">
+                        <div class="mt-1">
+                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
+                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
+                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
+                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
+                                    Slider</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -202,5 +286,17 @@ import davinci from '../components/logo/davinci.vue';
 .bar-title {
     background-image: linear-gradient(90deg, #d946ef, #dc2626, #fb923c);
     border-radius: 2px;
+}
+
+.card-jeu {
+    border: 1px solid #C2C2C2;
+    box-shadow: 0px 0px 2px #C2C2C2;
+    border-radius: 8px;
+}
+
+.card-jeu:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px #C2C2C2;
 }
 </style>
