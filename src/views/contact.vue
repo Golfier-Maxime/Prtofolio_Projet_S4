@@ -7,7 +7,7 @@
         <p class="mt-4">Vous voulez directement me contacter, vous pouvez le faire via ce formulaire.</p>
         <p class="mt-4">Ou simplement avec :</p>
 
-        <p>E-Mail : <a href="mailto:contact@maximegolfier.fr" class="text-danger">contact@maximegolfier.fr</a></p>
+        <p>E-Mail : <a href="mailto:contact@maximegolfier.fr" class="">contact@maximegolfier.fr</a></p>
         <p>Numéro : 07 71 07 25 94</p>
         <div>
             <form action="contact@maximegolfier.fr" class="space-y-8">

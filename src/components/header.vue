@@ -36,11 +36,11 @@ const switchMenu = () => {
                 </li>
 
                 <li>
-                    <RouterLink @click="switchMenu" to="/create" class="dark:text-white duration-700">Projets
+                    <RouterLink @click="switchMenu" to="/projets" class="dark:text-white duration-700">Projets
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/socials" class="dark:text-white duration-700">À Propos
+                    <RouterLink @click="switchMenu" to="/apropos" class="dark:text-white duration-700">À Propos
                     </RouterLink>
                 </li>
                 <li>

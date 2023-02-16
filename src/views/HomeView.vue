@@ -279,6 +279,21 @@ import davinci from '../components/logo/davinci.vue';
                 </div>
             </div>
         </div>
+        <!-- me contacter -->
+        <div class="ml-4 mr-4 dark:text-white duration-700">
+            <div class="">
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Me contacter pour un
+                    projet</h2>
+                <div class="bar-title h-1 mt-1 w-[220px]"></div>
+                <p class="mt-4">E-Mail : <a href="mailto:contact@maximegolfier.fr"
+                        class="text-orange-400">contact@maximegolfier.fr</a>
+                </p>
+                <p class="mt-2">Numéro : 07 71 07 25 94</p>
+                <p class="mt-2">Ou directement sur la page<RouterLink to="/contact" class="text-orange-400"> Contact
+                    </RouterLink>
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 
