@@ -17,7 +17,7 @@ import davinci from '../components/logo/davinci.vue';
         <div>
             <img src="" alt="">
             <div class="flex justify-center">
-                <h1 class=" dark:text-white ">Etudiant Web devellopement</h1>
+                <h1 class=" dark:text-white ">Étudiant Web developement</h1>
             </div>
             <div class="flex justify-center mt-2">
                 <img class="w-[300px] rounded-md " src="/images/maximegolfier.png" alt="">
@@ -28,7 +28,7 @@ import davinci from '../components/logo/davinci.vue';
                 <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Qui suis-je ?</h2>
                 <div class="bar-title h-1 mt-1 w-[120px]"></div>
             </div>
-            <p class="mt-4  dark:text-white duration-700">Etudiant de 23 ans, actuellement en deuxième
+            <p class="mt-4  dark:text-white duration-700">Étudiant de 23 ans, actuellement en deuxième
                 année en
                 MMI (Métiers du Multimédia et de l’Internet) de Montbéliard.
             <p class="mt-4 dark:text-white duration-700">
@@ -205,8 +205,9 @@ import davinci from '../components/logo/davinci.vue';
                     <a class="  " href="https://maximegolfier.fr/">
                         <img class="rounded-t-md  " src="/images/UFCarene.png" alt="">
                         <div class="mt-1">
-                            <p class="text-lg">UFC Arene</p>
-                            <p class="text-xs">Mise en place du site spécialisé sur l'arène d'Unified Champions Club.
+                            <p class="text-lg ml-1 mr-1">UFC Arene</p>
+                            <p class="text-xs ml-1 mr-1">Mise en place du site spécialisé sur l'arène d'Unified
+                                Champions Club.
                                 Système d'inscription + participation au tournois.
                                 Produit avec <span class="text-blue-400"> wordpress</span> + <span class="text-red-400">
                                     Sportpress</span>.
