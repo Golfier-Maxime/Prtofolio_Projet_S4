@@ -66,8 +66,8 @@ import davinci from '../components/logo/davinci.vue';
                 <div class=" mt-6 flex gap-1 items-center">
                     <div class="flex flex-col items-center">
                         <html5 class="w-16 h-16"></html5>
-                        <p class="">HTML</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <p class="">HTML</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="164.242" height="7.02148"
                                 class="stroke-Dark-Blue dark:stroke-white"></rect>
                             <rect width="150.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
@@ -105,8 +105,8 @@ import davinci from '../components/logo/davinci.vue';
                 <div class=" mt-6 flex gap-1 items-center">
                     <div class="flex flex-col items-center">
                         <vue3 class="w-16 h-16"></vue3>
-                        <p class="">Vue3Js</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <p class="">Vue3Js</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="164.242" height="7.02148"
                                 class="stroke-Dark-Blue dark:stroke-white"></rect>
                             <rect width="140.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
@@ -131,8 +131,8 @@ import davinci from '../components/logo/davinci.vue';
                 <div class=" mt-6 flex gap-1 items-center">
                     <div class="flex flex-col items-center">
                         <firebasevue class="w-16 h-16"></firebasevue>
-                        <p class="">Firebase / Supabase</p><svg class="mt-1 ml-2" width="164" height="9"
-                            viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <p class="">Firebase / Supabase</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="164.242" height="7.02148"
                                 class="stroke-Dark-Blue dark:stroke-white"></rect>
                             <rect width="90.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
@@ -159,8 +159,8 @@ import davinci from '../components/logo/davinci.vue';
                 <div class=" mt-6 flex gap-1 items-center">
                     <div class="flex flex-col items-center">
                         <figma class="w-16 h-16"></figma>
-                        <p class="">Figma</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <p class="">Figma</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="164.242" height="7.02148"
                                 class="stroke-Dark-Blue dark:stroke-white"></rect>
                             <rect width="100.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
@@ -226,8 +226,7 @@ import davinci from '../components/logo/davinci.vue';
                                 de
                                 données.
                                 Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                    class="text-blue-400">Tailwind</span> + <span
-                                    class="text-yellow-400">FireBase</span>.
+                                    class="text-blue-400">Tailwind</span> + <span class="text-yellow-400">FireBase</span>.
                             </p>
                         </div>
                     </a>
@@ -257,8 +256,7 @@ import davinci from '../components/logo/davinci.vue';
                                 customisable par le
                                 client.
                                 Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                    class="text-blue-400">tailwind</span> + <span
-                                    class="text-green-400">Supabase</span>.
+                                    class="text-blue-400">tailwind</span> + <span class="text-green-400">Supabase</span>.
                             </p>
                         </div>
                     </a>
@@ -274,6 +272,22 @@ import davinci from '../components/logo/davinci.vue';
                                 Produit avec <span class="text-blue-400">Wordpress</span> + <span
                                     class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
                                     Slider</span>.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="mt-4 w-60  card-jeu">
+                    <a class="  " href="https://dataviz-maxime-golfier.netlify.app/">
+                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
+                        <div class="mt-1">
+                            <p class="ml-1 mr-1 text-lg">Data Museum</p>
+                            <p class="text-xs ml-1 mr-1">Mise en place d'un site de Data Visualisation de donnée sur les
+                                musées.
+                                Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                    class="text-blue-400">Tailwind</span> + <span class="text-red-400">ChartJs
+                                </span>+ <span class="text-pink-400">API Data.gouv.fr </span>.
                             </p>
                         </div>
                     </a>
