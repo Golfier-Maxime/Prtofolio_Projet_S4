@@ -9,23 +9,29 @@ import wordpressvue from '../components/logo/wordpress.vue';
 import figma from '../components/logo/figma.vue';
 import adobe from '../components/logo/adobe.vue';
 import davinci from '../components/logo/davinci.vue';
+
+
+
 </script>
 
 <template>
     <!-- main -->
     <div>
+
         <!-- Debut -->
         <div class="lg:flex lg:mx-20">
             <div>
-                <h1
-                    class="mt-4 lg:mt-12 text-center titre tracking-wider text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
-                    MAXIME
-                    GOLFIER
-                </h1>
+                <div>
+                    <h1
+                        class="mt-4 lg:mt-12 text-center titre tracking-[6px] text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
+                        MAXIME
+                        GOLFIER
+                    </h1>
+                </div>
                 <div>
                     <img src="" alt="">
                     <div class="flex justify-center">
-                        <h1 class=" dark:text-white lg:text-[28px]">Étudiant Web developement</h1>
+                        <h1 class=" dark:text-white lg:text-[24px]">Étudiant en développement Web</h1>
                     </div>
                     <div class="flex justify-center mt-2">
                         <img class="lg:w-[400px] w-[300px]  " src="/images/maximegolfier.png" alt="">
@@ -39,9 +45,10 @@ import davinci from '../components/logo/davinci.vue';
                 </div>
                 <div class="ml-4 mr-4 lg:mx-20 ">
                     <div>
-                        <h2 class="mt-8 text-lg lg:text-[28px] font-bold tracking-wider dark:text-white duration-700"> Qui
+                        <h2 class="mt-8 text-lg lg:text-[28px] font-bold tracking-wider dark:text-white duration-700">
+                            Qui
                             suis-je ?</h2>
-                        <div class="bar-title h-1 mt-1 w-[120px]"></div>
+                        <div class="bar-title h-1 mt-2 w-[200px]"></div>
                     </div>
                     <p class="mt-4 lg:text-[24px]  dark:text-white duration-700">Étudiant de 23 ans, actuellement en
                         deuxième
@@ -81,101 +88,62 @@ import davinci from '../components/logo/davinci.vue';
         <!-- COMPETENCE -->
         <div class="ml-4 mr-4 lg:mx-20 lg:mt-36">
             <div>
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Compétences</h2>
-                <div class="bar-title h-1 mt-1 w-[170px]"></div>
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] "> Mes
+                    Compétences</h2>
+                <div class="bar-title h-1 mt-1 w-[270px]"></div>
             </div>
             <!-- comp -->
-            <h3 class="font-bold tracking-wider dark:text-white duration-700">Développement Web</h3>
-            <div class="mt-4 flex flex-col items-center lg:flex-row dark:text-white duration-700">
+            <h3 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700">
+                &#x27E8;Développement
+                Web/&#x3009;</h3>
+            <div
+                class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
 
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <html5 class="w-16 h-16"></html5>
-                        <p class="">HTML</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="150.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <html5 class="w-16 h-16 lg:w-32 lg:h-32"></html5>
+                        <p class="lg:text-[24px] font-bold tracking-widest ">HTML</p>
+                    </div>
+                </div>
+                <div class=" mt-6 flex gap-1 items-center card-dev">
+                    <div class="flex flex-col items-center">
+                        <Css3 class="w-16 h-16 lg:w-32 lg:h-32"></Css3>
+                        <p class="lg:text-[24px] font-bold tracking-widest">CSS</p>
                     </div>
 
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <Css3 class="w-16 h-16"></Css3>
-                        <p class="">CSS</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="145.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <javas class="w-16 h-16 lg:w-32 lg:h-32"></javas>
+                        <p class="lg:text-[24px] font-bold tracking-widest">JavaScript</p>
                     </div>
 
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <javas class="w-16 h-16"></javas>
-                        <p class="">JavaScript</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="100.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <vue3 class="w-16 h-16 lg:w-32 lg:h-32"></vue3>
+                        <p class="lg:text-[24px] font-bold tracking-widest">Vue3Js</p>
                     </div>
 
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <vue3 class="w-16 h-16"></vue3>
-                        <p class="">Vue3Js</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="140.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <tailwindcss class="w-16 h-16 lg:w-32 lg:h-32"></tailwindcss>
+                        <p class="lg:text-[24px] font-bold tracking-widest">Tailwind Css</p>
                     </div>
 
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <tailwindcss class="w-16 h-16"></tailwindcss>
-                        <p class="">Tailwind Css</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="130.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <firebasevue class="w-16 h-16 lg:w-32 lg:h-32"></firebasevue>
+                        <p class="lg:text-[24px] font-bold tracking-widest">Firebase / Supabase</p>
                     </div>
 
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
+                <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <firebasevue class="w-16 h-16"></firebasevue>
-                        <p class="">Firebase / Supabase</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="90.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
-                    </div>
-
-                </div>
-                <div class=" mt-6 flex gap-1 items-center">
-                    <div class="flex flex-col items-center">
-                        <wordpressvue class="w-16 h-16"></wordpressvue>
-                        <p class="">Wordpress</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="80.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                        <wordpressvue class="w-16 h-16 lg:w-32 lg:h-32"></wordpressvue>
+                        <p class="lg:text-[24px] font-bold tracking-widest">Wordpress</p>
                     </div>
                 </div>
             </div>
@@ -184,7 +152,8 @@ import davinci from '../components/logo/davinci.vue';
                 <div class=" mt-6 flex gap-1 items-center">
                     <div class="flex flex-col items-center">
                         <figma class="w-16 h-16"></figma>
-                        <p class="">Figma</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
+                        <p class="">Figma</p>
+                        <svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="164.242" height="7.02148"
                                 class="stroke-Dark-Blue dark:stroke-white"></rect>
@@ -354,4 +323,13 @@ import davinci from '../components/logo/davinci.vue';
     transition: 0.4s;
     box-shadow: 0px 0px 10px #C2C2C2;
 }
+
+.card-dev:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+
+
+}
+
+/* test0 */
 </style>

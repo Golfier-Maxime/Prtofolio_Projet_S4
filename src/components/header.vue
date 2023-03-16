@@ -24,9 +24,9 @@ const switchMenu = () => {
         <nav class=" relative right-4 md:right-9 lg:right-40 ">
             <div class="flex  z-50 md:hidden w-8 h-3 flex-col justify-between"
                 :class="menuOpen && `fixed right-10`, !menuOpen && `relative`" @click="switchMenu">
-                <span class="w-full h-[2px] bg-Dark-Blue transition-all dark:bg-white"
+                <span class="w-full h-[2px] bg-topbar transition-all dark:bg-topbar"
                     :class="menuOpen && `rotate-45`"></span>
-                <span class="h-[2px] bg-Dark-Blue self-end transition-all dark:bg-white"
+                <span class="h-[2px] bg-topbar self-end transition-all dark:bg-topbar"
                     :class="menuOpen && ` -rotate-45 absolute w-full`, !menuOpen && `w-2/3`"></span>
             </div>
             <ul class="fixed z-40 flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-10 items-center dark:bg-Dark-Blue dark:lg:bg-transparent "
@@ -36,15 +36,15 @@ const switchMenu = () => {
                 </li>
 
                 <li>
-                    <RouterLink @click="switchMenu" to="/projets" class="dark:text-white duration-700">Projets
+                    <RouterLink @click="switchMenu" to="/projets" class="dark:text-white duration-700 btn_header">Projets
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/apropos" class="dark:text-white duration-700">À Propos
+                    <RouterLink @click="switchMenu" to="/apropos" class="dark:text-white duration-700 btn_header">À Propos
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/contact" class="dark:text-white duration-700">Contact
+                    <RouterLink @click="switchMenu" to="/contact" class="dark:text-white duration-700 btn_header">Contact
                     </RouterLink>
                 </li>
             </ul>
@@ -53,6 +53,43 @@ const switchMenu = () => {
 </template>
 
 <style>
+.btn_header {
+    position: relative;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn_header:before,
+.btn_header:after {
+    width: 0;
+    content: "";
+    bottom: -10px;
+    background-image: linear-gradient(90deg, #d946ef, #dc2626, #fb923c);
+    height: 2px;
+    position: absolute;
+    -webkit-transition: width .4s ease;
+    -moz-transition: width .4s ease;
+    -o-transition: width .4s ease;
+    transition: width .4s ease;
+}
+
+.btn_header:before {
+    right: 0%;
+
+}
+
+.btn_header:after {
+    left: 0%;
+}
+
+.btn_header:hover:before,
+.btn_header:hover:after {
+    width: 50%;
+}
+
 .bg-topbar {
     background-image: linear-gradient(90deg, #d946ef, #dc2626, #fb923c);
 }
