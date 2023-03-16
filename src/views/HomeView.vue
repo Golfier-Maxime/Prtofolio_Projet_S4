@@ -147,44 +147,35 @@ import davinci from '../components/logo/davinci.vue';
                     </div>
                 </div>
             </div>
-            <div class="mt-12 flex flex-col items-center dark:text-white duration-700">
-                <h3 class="font-bold tracking-wider">Autres compétences</h3>
-                <div class=" mt-6 flex gap-1 items-center">
-                    <div class="flex flex-col items-center">
-                        <figma class="w-16 h-16"></figma>
-                        <p class="">Figma</p>
-                        <svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="100.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
-                    </div>
+            <div class="lg:mt-36">
+                <div>
+                    <h2 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700"> Autres
+                        Compétences</h2>
+
                 </div>
-                <div class=" mt-6 flex gap-1 items-center">
-                    <div class="flex flex-col items-center">
-                        <adobe class="w-16 h-16"></adobe>
-                        <p class="">Suite Adobe</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="70.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                <div
+                    class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
+                    <div class=" mt-6  gap-1 items-center card-dev">
+                        <div class="flex flex-col items-center">
+                            <figma class="w-16 h-16 lg:w-32 lg:h-32"></figma>
+                            <p class="lg:text-[24px] font-bold tracking-widest">Figma</p>
+
+                        </div>
                     </div>
-                </div>
-                <div class=" mt-6 flex gap-1 items-center">
-                    <div class="flex flex-col items-center">
-                        <davinci class="w-16 h-16"></davinci>
-                        <p class="">Davinci Resolve</p><svg class="mt-1 ml-2" width="164" height="9" viewBox="0 0 166 9"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="0.5" width="164.242" height="7.02148"
-                                class="stroke-Dark-Blue dark:stroke-white"></rect>
-                            <rect width="50.242" height="8.02148" class="fill-Dark-Blue dark:fill-white">
-                            </rect>
-                        </svg>
+                    <div class=" mt-6 flex gap-1 items-center card-dev">
+                        <div class="flex flex-col items-center">
+                            <adobe class="w-16 h-16 lg:w-32 lg:h-32"></adobe>
+                            <p class="lg:text-[24px] font-bold tracking-widest">Suite Adobe</p>
+
+                        </div>
                     </div>
+                    <div class=" mt-6 flex gap-1 items-center card-dev">
+                        <div class="flex flex-col items-center">
+                            <davinci class="w-16 h-16 lg:w-32 lg:h-32"></davinci>
+                            <p class="lg:text-[24px] font-bold tracking-widest">Davinci Resolve</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -326,8 +317,7 @@ import davinci from '../components/logo/davinci.vue';
 
 .card-dev:hover {
     transform: scale(1.05);
-    transition: 0.4s;
-
+    transition: 0.3s;
 
 }
 
