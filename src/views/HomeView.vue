@@ -11,7 +11,9 @@ import adobe from '../components/logo/adobe.vue';
 import davinci from '../components/logo/davinci.vue';
 
 
-
+import AOS from "aos"
+import "aos/dist/aos.css"
+AOS.init();
 </script>
 
 <template>
@@ -20,7 +22,7 @@ import davinci from '../components/logo/davinci.vue';
 
         <!-- Debut -->
         <div class="lg:flex lg:mx-20">
-            <div>
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div>
                     <h1
                         class="mt-4 lg:mt-12 text-center titre tracking-[6px] text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
@@ -39,7 +41,7 @@ import davinci from '../components/logo/davinci.vue';
                 </div>
             </div>
             <!-- TEXT Bonjour -->
-            <div class="lg:mt-32">
+            <div class="lg:mt-32" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div>
                     <h2 class=" ml-4 mr-4 font-bold lg:mx-20 lg:text-7xl dark:text-white duration-700">BONJOUR 👋</h2>
                 </div>
@@ -96,7 +98,7 @@ import davinci from '../components/logo/davinci.vue';
             <h3 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700">
                 &#x27E8;Développement
                 Web/&#x3009;</h3>
-            <div
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                 class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
 
                 <div class=" mt-6 flex gap-1 items-center card-dev">
@@ -147,7 +149,7 @@ import davinci from '../components/logo/davinci.vue';
                     </div>
                 </div>
             </div>
-            <div class="lg:mt-36">
+            <div class="lg:mt-36" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <div>
                     <h2 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700"> Autres
                         Compétences</h2>
@@ -180,27 +182,48 @@ import davinci from '../components/logo/davinci.vue';
             </div>
         </div>
         <!-- mes projets -->
-        <div class="ml-4 mr-4 dark:text-white duration-700">
-            <div class="">
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Projets</h2>
-                <div class="bar-title h-1 mt-1 w-[120px]"></div>
+
+        <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <div>
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] ">Mes Projets
+                </h2>
+                <div class="bar-title h-1 mt-1 w-[200px]"></div>
             </div>
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/UFCarene.png" alt="">
-                        <div class="mt-1">
-                            <p class="text-lg ml-1 mr-1">UFC Arene</p>
-                            <p class="text-xs ml-1 mr-1">Mise en place du site spécialisé sur l'arène d'Unified
+
+            <div>
+                <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <div class="flex  justify-center " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="lg:mt-16 flex gap-11 card-projet">
+                        <img src="/images/UFCarene.png" alt="" class="w-[250px] rounded-md">
+                        <div>
+                            <p class="text-[28px] font-bold ">UFC Arene</p>
+                            <p class="lg:text-[24px]">Mise en place du site spécialisé sur l'arène d'Unified
                                 Champions Club.
                                 Système d'inscription + participation au tournois.
                                 Produit avec <span class="text-blue-400"> wordpress</span> + <span class="text-red-400">
-                                    Sportpress</span>.
-                            </p>
+                                    Sportpress</span>.</p>
                         </div>
-                    </a>
+                    </div>
+                </div>
+            <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+            <div class="flex  justify-center ">
+                <div class="lg:mt-16 flex gap-11 card-projet" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <img src="/images/axolott.png" alt="" class="w-[250px] rounded-md">
+                    <div>
+                        <p class="text-[28px] font-bold ">Axolott App</p>
+                        <p class="lg:text-[24px]">Mise en place d'une application mobile avec interaction et base
+                            de
+                            données.
+                            Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                class="text-blue-400">Tailwind</span> + <span class="text-yellow-400">FireBase</span>.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+        </div>
+        <!-- 
             <div class="flex justify-center">
                 <div class="mt-4 w-60  card-jeu">
                     <a class="  " href="https://www.axolottapp.maximegolfier.fr/">
@@ -239,59 +262,49 @@ import davinci from '../components/logo/davinci.vue';
                             <p class="ml-1 mr-1 text-lg">Tik-Tak</p>
                             <p class="text-xs ml-1 mr-1">Mise en place d'un site de vente de montre connecter
                                 customisable par le
-                                client.
-                                Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                    class="text-blue-400">tailwind</span> + <span class="text-green-400">Supabase</span>.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
-                        <div class="mt-1">
-                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
-                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
-                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
-                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
-                                    Slider</span>.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://dataviz-maxime-golfier.netlify.app/">
-                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
-                        <div class="mt-1">
-                            <p class="ml-1 mr-1 text-lg">Data Museum</p>
-                            <p class="text-xs ml-1 mr-1">Mise en place d'un site de Data Visualisation de donnée sur les
-                                musées.
-                                Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                    class="text-blue-400">Tailwind</span> + <span class="text-red-400">ChartJs
-                                </span>+ <span class="text-pink-400">API Data.gouv.fr </span>.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                                        client.
+                                        Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                            class="text-blue-400">tailwind</span> + <span class="text-green-400">Supabase</span>.
+                                    </p>
+                                    </div>
+                                                                                                                </a>
+                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                        <div class="flex justify-center">
+                                                                                                                                                                                                                                                                                            <div class="mt-4 w-60  card-jeu">
+                                                                                                                                                                                                                                                                                                <a class="  " href="https://tpwordpress.maximegolfier.fr/">
+                                                                                                                                                                                                                                                                                                    <img class="rounded-t-md  " src="/images/MC.png" alt="">
+                                                                                                                                                                                                                                                                                                    <div class="mt-1">
+                                                                                                                                                                                                                                                                                                        <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
+                                                                                                                                                                                                                                                                                                        <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
+                                                                                                                                                                                                                                                                                                            Produit avec <span class="text-blue-400">Wordpress</span> + <span
+                                                                                                                                                                                                                                                                                                                class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
+                                                                                                                                                                                                                                                                                                                Slider</span>.
+                                                                                                                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                </a>
+                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                        </div>                                                                                                                                                                       </div> -->
         </div>
         <!-- me contacter -->
-        <div class="ml-4 mr-4 dark:text-white duration-700">
-            <div class="">
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Me contacter pour un
+        <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">
+            <div>
+                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] ">Me contacter
+                    pour un
                     projet</h2>
-                <div class="bar-title h-1 mt-1 w-[220px]"></div>
-                <p class="mt-4">E-Mail : <a href="mailto:contact@maximegolfier.fr"
+                <div class="bar-title h-1 mt-1 w-[400px]"></div>
+                <p class="mt-4 lg:text-[24px]">E-Mail : <a href="mailto:contact@maximegolfier.fr"
                         class="text-orange-400">contact@maximegolfier.fr</a>
                 </p>
-                <p class="mt-2">Numéro : 07 71 07 25 94</p>
-                <p class="mt-2">Ou directement sur la page<RouterLink to="/contact" class="text-orange-400"> Contact
+                <p class="mt-2 lg:text-[24px]">Numéro : 07 71 07 25 94</p>
+                <p class="mt-2 lg:text-[24px]">Ou directement sur la page<RouterLink to="/contact" class="text-orange-400">
+                        Contact
                     </RouterLink>
                 </p>
+            </div>
+            <div class="">
+
+
             </div>
         </div>
     </div>
@@ -303,16 +316,18 @@ import davinci from '../components/logo/davinci.vue';
     border-radius: 2px;
 }
 
-.card-jeu {
-    border: 1px solid #C2C2C2;
-    box-shadow: 0px 0px 2px #C2C2C2;
-    border-radius: 8px;
+.bar-neutral {
+    border-radius: 2px;
 }
 
-.card-jeu:hover {
-    transform: scale(1.05);
-    transition: 0.4s;
-    box-shadow: 0px 0px 10px #C2C2C2;
+
+.card-projet {
+    width: 70%;
+}
+
+.card-projet:hover {
+    scale: 1.2;
+    transition: 0.3s;
 }
 
 .card-dev:hover {
