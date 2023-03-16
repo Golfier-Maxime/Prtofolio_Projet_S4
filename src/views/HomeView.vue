@@ -18,7 +18,7 @@ import davinci from '../components/logo/davinci.vue';
         <div class="lg:flex lg:mx-20">
             <div>
                 <h1
-                    class="mt-4 lg:mt-12 text-center titre tracking-wider text-[60px] lg:text-[100px]  dark:text-white duration-700">
+                    class="mt-4 lg:mt-12 text-center titre tracking-wider text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
                     MAXIME
                     GOLFIER
                 </h1>
