@@ -7,6 +7,8 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "css-doodle": "^0.34.5",
     "tailwindcss-animation": "^0.1.2",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"

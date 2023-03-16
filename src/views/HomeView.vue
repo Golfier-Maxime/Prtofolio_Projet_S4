@@ -13,49 +13,56 @@ import davinci from '../components/logo/davinci.vue';
 
 <template>
     <div>
-        <h1 class="mt-4 text-center titre tracking-wider text-[60px]  dark:text-white duration-700">MAXIME GOLFIER</h1>
-        <div>
-            <img src="" alt="">
-            <div class="flex justify-center">
-                <h1 class=" dark:text-white ">Étudiant Web developement</h1>
-            </div>
-            <div class="flex justify-center mt-2">
-                <img class="w-[300px] rounded-md " src="/images/maximegolfier.png" alt="">
-            </div>
-        </div>
-        <div class="ml-4 mr-4">
+        <div class="lg:flex lg:mx-20">
             <div>
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Qui suis-je ?</h2>
-                <div class="bar-title h-1 mt-1 w-[120px]"></div>
+                <h1 class="mt-4 text-center titre tracking-wider text-[60px]  dark:text-white duration-700">MAXIME GOLFIER
+                </h1>
+                <div>
+                    <img src="" alt="">
+                    <div class="flex justify-center">
+                        <h1 class=" dark:text-white ">Étudiant Web developement</h1>
+                    </div>
+                    <div class="flex justify-center mt-2">
+                        <img class="w-[300px] rounded-md " src="/images/maximegolfier.png" alt="">
+                    </div>
+                </div>
             </div>
-            <p class="mt-4  dark:text-white duration-700">Étudiant de 23 ans, actuellement en deuxième
-                année en
-                MMI (Métiers du Multimédia et de l’Internet) de Montbéliard.
-            <p class="mt-4 dark:text-white duration-700">
-                Passionné par le web et son
-                fonctionnement, le
-                métier de développeur
-                web, m'interesse car je considere que ce sont dans ces domaines que l'on
-                fasconne les
-                techniques, les outils, et les medias de demain.</p>
-            </p>
+            <div class="ml-4 mr-4 lg:mx-20">
+                <div>
+                    <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Qui suis-je ?</h2>
+                    <div class="bar-title h-1 mt-1 w-[120px]"></div>
+                </div>
+                <p class="mt-4  dark:text-white duration-700">Étudiant de 23 ans, actuellement en deuxième
+                    année en
+                    MMI (Métiers du Multimédia et de l’Internet) de Montbéliard.
+                <p class="mt-4 dark:text-white duration-700">
+                    Passionné par le web et son
+                    fonctionnement, le
+                    métier de développeur
+                    web, m'interesse car je considere que ce sont dans ces domaines que l'on
+                    fasconne les
+                    techniques, les outils, et les medias de demain.</p>
+                </p>
 
-            <p class="mt-4 dark:text-white duration-700">
-                Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'éllaborer des sites
-                web
-                toujours plus
-                innovants afin d'en apprendre plus sur les nouvelles technologie.
-            </p>
-            <p class="mt-4 dark:text-white duration-700">
-                Malgré que mon expérience soit encore jeune dans le milieu du web mon intérêt pour ce domaine ne
-                cesse de me motiver et
-                de faire grandir mes ambitions. Si cette présentation n'a pas suffi à vous convaincre de
-                travailler
-                avec moi, vous
-                pouvez en apprendre plus encore plus dans la page :
-            <p class="dark:text-white duration-700">À propos</p>
-            </p>
+                <p class="mt-4 dark:text-white duration-700">
+                    Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'éllaborer des sites
+                    web
+                    toujours plus
+                    innovants afin d'en apprendre plus sur les nouvelles technologie.
+                </p>
+                <p class="mt-4 dark:text-white duration-700">
+                    Malgré que mon expérience soit encore jeune dans le milieu du web mon intérêt pour ce domaine ne
+                    cesse de me motiver et
+                    de faire grandir mes ambitions. Si cette présentation n'a pas suffi à vous convaincre de
+                    travailler
+                    avec moi, vous
+                    pouvez en apprendre plus encore plus dans la page :
+                <p class="dark:text-white duration-700">À propos</p>
+                </p>
+            </div>
         </div>
+
+
         <div class="ml-4 mr-4">
             <div>
                 <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700"> Mes Compétences</h2>

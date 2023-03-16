@@ -1,5 +1,5 @@
 <script setup>
-
+import 'css-doodle';
 </script>
 
 <template>
@@ -9,6 +9,4 @@
     </div>
 </template>
 
-<style>
-
-</style>
+<style scoped></style>
