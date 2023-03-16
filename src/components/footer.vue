@@ -7,7 +7,7 @@ import LogoMG from './logo/logo.vue'
 </script>
 
 <template>
-    <footer class="bg-white dark:bg-[#0D1117] duration-700 pt-36">
+    <footer class="bg-B-White dark:bg-[#0D1117] duration-700 pt-36">
         <div class="flex justify-center">
             <div class="bar-footer  w-2/3 h-[4px]"></div>
         </div>

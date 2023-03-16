@@ -11,9 +11,7 @@ import adobe from '../components/logo/adobe.vue';
 import davinci from '../components/logo/davinci.vue';
 
 
-import AOS from "aos"
-import "aos/dist/aos.css"
-AOS.init();
+
 </script>
 
 <template>
@@ -22,7 +20,7 @@ AOS.init();
 
         <!-- Debut -->
         <div class="lg:flex lg:mx-20">
-            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div>
                 <div>
                     <h1
                         class="mt-4 lg:mt-12 text-center titre tracking-[6px] text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
@@ -41,7 +39,7 @@ AOS.init();
                 </div>
             </div>
             <!-- TEXT Bonjour -->
-            <div class="lg:mt-32" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="lg:mt-32">
                 <div>
                     <h2 class=" ml-4 mr-4 font-bold lg:mx-20 lg:text-7xl dark:text-white duration-700">BONJOUR 👋</h2>
                 </div>
@@ -98,7 +96,7 @@ AOS.init();
             <h3 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700">
                 &#x27E8;Développement
                 Web/&#x3009;</h3>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            <div
                 class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
 
                 <div class=" mt-6 flex gap-1 items-center card-dev">
@@ -149,7 +147,7 @@ AOS.init();
                     </div>
                 </div>
             </div>
-            <div class="lg:mt-36" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="lg:mt-36">
                 <div>
                     <h2 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700"> Autres
                         Compétences</h2>
@@ -183,8 +181,7 @@ AOS.init();
         </div>
         <!-- mes projets -->
 
-        <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36" data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom">
+        <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">
             <div>
                 <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] ">Mes Projets
                 </h2>
@@ -193,7 +190,7 @@ AOS.init();
 
             <div>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
-                <div class="flex  justify-center " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="flex  justify-center ">
                     <div class="lg:mt-16 flex gap-11 card-projet">
                         <img src="/images/UFCarene.png" alt="" class="w-[250px] rounded-md">
                         <div>
@@ -206,9 +203,9 @@ AOS.init();
                         </div>
                     </div>
                 </div>
-            <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
-            <div class="flex  justify-center ">
-                <div class="lg:mt-16 flex gap-11 card-projet" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <div class="flex  justify-center ">
+                <div class="lg:mt-16 flex gap-11 card-projet">
                     <img src="/images/axolott.png" alt="" class="w-[250px] rounded-md">
                     <div>
                         <p class="text-[28px] font-bold ">Axolott App</p>
@@ -267,24 +264,24 @@ AOS.init();
                                             class="text-blue-400">tailwind</span> + <span class="text-green-400">Supabase</span>.
                                     </p>
                                     </div>
-                                                                                                                </a>
-                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                        <div class="flex justify-center">
-                                                                                                                                                                                                                                                                                            <div class="mt-4 w-60  card-jeu">
-                                                                                                                                                                                                                                                                                                <a class="  " href="https://tpwordpress.maximegolfier.fr/">
-                                                                                                                                                                                                                                                                                                    <img class="rounded-t-md  " src="/images/MC.png" alt="">
-                                                                                                                                                                                                                                                                                                    <div class="mt-1">
-                                                                                                                                                                                                                                                                                                        <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
-                                                                                                                                                                                                                                                                                                        <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
-                                                                                                                                                                                                                                                                                                            Produit avec <span class="text-blue-400">Wordpress</span> + <span
-                                                                                                                                                                                                                                                                                                                class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
-                                                                                                                                                                                                                                                                                                                Slider</span>.
-                                                                                                                                                                                                                                                                                                        </p>
-                                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                        </div>                                                                                                                                                                       </div> -->
+                                                                                                                        </a>
+                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                            <div class="flex justify-center">
+                                                                                                                                                                                                                                                                                                                                <div class="mt-4 w-60  card-jeu">
+                                                                                                                                                                                                                                                                                                                                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
+                                                                                                                                                                                                                                                                                                                                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
+                                                                                                                                                                                                                                                                                                                                        <div class="mt-1">
+                                                                                                                                                                                                                                                                                                                                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
+                                                                                                                                                                                                                                                                                                                                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
+                                                                                                                                                                                                                                                                                                                                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
+                                                                                                                                                                                                                                                                                                                                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
+                                                                                                                                                                                                                                                                                                                                                    Slider</span>.
+                                                                                                                                                                                                                                                                                                                                            </p>
+                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                            </div>                                                                                                                                                                       </div> -->
         </div>
         <!-- me contacter -->
         <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">

@@ -32,19 +32,23 @@ const switchMenu = () => {
             <ul class="fixed z-40 flex flex-col justify-center top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent translate-x-full transition-all md:translate-x-0 md:flex-row md:relative gap-10 items-center dark:bg-Dark-Blue dark:lg:bg-transparent "
                 :class="menuOpen && `translate-x-0 md:translate-x-0`">
                 <li class="md:hidden">
-                    <RouterLink @click="switchMenu" to="/" class="dark:text-white duration-700">Accueil</RouterLink>
+                    <RouterLink @click="switchMenu" to="/" class=" dark:text-white duration-700 text-[24px]">Accueil
+                    </RouterLink>
                 </li>
 
                 <li>
-                    <RouterLink @click="switchMenu" to="/projets" class="dark:text-white duration-700 btn_header">Projets
+                    <RouterLink @click="switchMenu" to="/projets"
+                        class="dark:text-white duration-700 btn_header text-[24px]">Projets
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/apropos" class="dark:text-white duration-700 btn_header">À Propos
+                    <RouterLink @click="switchMenu" to="/apropos"
+                        class="dark:text-white duration-700 btn_header text-[24px]">À Propos
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink @click="switchMenu" to="/contact" class="dark:text-white duration-700 btn_header">Contact
+                    <RouterLink @click="switchMenu" to="/contact"
+                        class="dark:text-white duration-700 btn_header text-[24px]">Contact
                     </RouterLink>
                 </li>
             </ul>
