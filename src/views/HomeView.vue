@@ -23,7 +23,7 @@ import davinci from '../components/logo/davinci.vue';
             <div>
                 <div>
                     <h1
-                        class="mt-4 lg:mt-12 text-center titre tracking-[6px] text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
+                        class="mt-4 2xl:mt-12 text-center titre tracking-[6px] text-[60px] 2xl:text-[100px]  dark:text-white duration-700">
                         MAXIME
                         GOLFIER
                     </h1>
@@ -31,30 +31,34 @@ import davinci from '../components/logo/davinci.vue';
                 <div>
                     <img src="" alt="">
                     <div class="flex justify-center">
-                        <h1 class=" dark:text-white lg:text-[24px]">Étudiant en développement Web</h1>
+                        <h1 class=" dark:text-white 2xl:text-[24px]">Étudiant en développement Web</h1>
                     </div>
                     <div class="flex justify-center mt-2">
-                        <img class="lg:w-[400px] w-[300px]  " src="/images/maximegolfier.png" alt="">
+                        <img class="2xl:w-[400px] w-[300px]  " src="/images/maximegolfier.png" alt="">
                     </div>
                 </div>
             </div>
             <!-- TEXT Bonjour -->
-            <div class="lg:mt-32">
+            <div class="2xl:mt-32 lg:mt-12">
                 <div>
-                    <h2 class=" ml-4 mr-4 font-bold lg:mx-20 lg:text-7xl dark:text-white duration-700">BONJOUR 👋</h2>
+                    <h2
+                        class=" ml-4 mr-4 font-bold lg:mx-20 2xl:text-7xl lg:text-[52px] text-[44px] dark:text-white duration-700">
+                        BONJOUR 👋</h2>
                 </div>
                 <div class="ml-4 mr-4 lg:mx-20 ">
                     <div>
-                        <h2 class="mt-8 text-lg lg:text-[28px] font-bold tracking-wider dark:text-white duration-700">
+                        <h2
+                            class="2xl:mt-8 lg:mt-4 text-lg lg:text-[20px] 2xl:text-[28px] font-bold tracking-wider dark:text-white duration-700">
                             Qui
                             suis-je ?</h2>
-                        <div class="bar-title h-1 mt-2 w-[200px]"></div>
+                        <div class="bar-title h-1 mt-2 2xl:w-[200px] lg:w-[150px] w-[130px]"></div>
                     </div>
-                    <p class="mt-4 lg:text-[24px]  dark:text-white duration-700">Étudiant de 23 ans, actuellement en
+                    <p class="mt-4 2xl:text-[24px] lg:text-[18px]  dark:text-white duration-700">Étudiant de 23 ans,
+                        actuellement en
                         deuxième
                         année en
                         MMI (Métiers du Multimédia et de l’Internet) de Montbéliard.
-                    <p class="mt-4 lg:text-[24px] dark:text-white duration-700">
+                    <p class="mt-4 2xl:text-[24px] lg:text-[18px] dark:text-white duration-700">
                         Passionné par le web et son
                         fonctionnement, le
                         métier de développeur
@@ -63,20 +67,20 @@ import davinci from '../components/logo/davinci.vue';
                         techniques, les outils, et les medias de demain.</p>
                     </p>
 
-                    <p class="mt-4 lg:text-[24px] dark:text-white duration-700">
+                    <p class="mt-4 2xl:text-[24px] lg:text-[18px] dark:text-white duration-700">
                         Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'éllaborer des sites
                         web
                         toujours plus
                         innovants afin d'en apprendre plus sur les nouvelles technologie.
                     </p>
-                    <p class="mt-4 lg:text-[24px] dark:text-white duration-700">
+                    <p class="mt-4 2xl:text-[24px] lg:text-[18px] dark:text-white duration-700">
                         Malgré que mon expérience soit encore jeune dans le milieu du web mon intérêt pour ce domaine ne
                         cesse de me motiver et
                         de faire grandir mes ambitions. Si cette présentation n'a pas suffi à vous convaincre de
                         travailler
                         avec moi, vous
                         pouvez en apprendre plus encore plus dans la page :
-                        <span class="dark:text-white duration-700 lg:text-[24px]">
+                        <span class="dark:text-white duration-700 2xl:text-[24px] lg:text-[18px]">
                             À propos
                         </span>
 
@@ -88,91 +92,94 @@ import davinci from '../components/logo/davinci.vue';
         <!-- COMPETENCE -->
         <div class="ml-4 mr-4 lg:mx-20 lg:mt-36">
             <div>
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] "> Mes
+                <h2
+                    class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] lg:text-[24px]">
+                    Mes
                     Compétences</h2>
-                <div class="bar-title h-1 mt-1 w-[270px]"></div>
+                <div class="bar-title h-1 mt-1 2xl:w-[270px] lg:w-[240px] w-[180px]"></div>
             </div>
             <!-- comp -->
-            <h3 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700">
+            <h3 class="font-bold tracking-[3px] 2xl:text-[24px] lg:text-[20px] mt-8 dark:text-white duration-700">
                 &#x27E8;Développement
                 Web/&#x3009;</h3>
             <div
-                class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
+                class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:gap-10 lg:justify-center dark:text-white duration-700">
 
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <html5 class="w-16 h-16 lg:w-32 lg:h-32"></html5>
-                        <p class="lg:text-[24px] font-bold tracking-widest ">HTML</p>
+                        <html5 class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></html5>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest ">HTML</p>
                     </div>
                 </div>
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <Css3 class="w-16 h-16 lg:w-32 lg:h-32"></Css3>
-                        <p class="lg:text-[24px] font-bold tracking-widest">CSS</p>
-                    </div>
-
-                </div>
-                <div class=" mt-6 flex gap-1 items-center card-dev">
-                    <div class="flex flex-col items-center">
-                        <javas class="w-16 h-16 lg:w-32 lg:h-32"></javas>
-                        <p class="lg:text-[24px] font-bold tracking-widest">JavaScript</p>
+                        <Css3 class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></Css3>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">CSS</p>
                     </div>
 
                 </div>
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <vue3 class="w-16 h-16 lg:w-32 lg:h-32"></vue3>
-                        <p class="lg:text-[24px] font-bold tracking-widest">Vue3Js</p>
+                        <javas class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></javas>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">JavaScript</p>
                     </div>
 
                 </div>
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <tailwindcss class="w-16 h-16 lg:w-32 lg:h-32"></tailwindcss>
-                        <p class="lg:text-[24px] font-bold tracking-widest">Tailwind Css</p>
+                        <vue3 class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></vue3>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Vue3Js</p>
                     </div>
 
                 </div>
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <firebasevue class="w-16 h-16 lg:w-32 lg:h-32"></firebasevue>
-                        <p class="lg:text-[24px] font-bold tracking-widest">Firebase / Supabase</p>
+                        <tailwindcss class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></tailwindcss>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Tailwind Css</p>
                     </div>
 
                 </div>
                 <div class=" mt-6 flex gap-1 items-center card-dev">
                     <div class="flex flex-col items-center">
-                        <wordpressvue class="w-16 h-16 lg:w-32 lg:h-32"></wordpressvue>
-                        <p class="lg:text-[24px] font-bold tracking-widest">Wordpress</p>
+                        <firebasevue class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></firebasevue>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Firebase / Supabase</p>
+                    </div>
+
+                </div>
+                <div class=" mt-6 flex gap-1 items-center card-dev">
+                    <div class="flex flex-col items-center">
+                        <wordpressvue class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></wordpressvue>
+                        <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Wordpress</p>
                     </div>
                 </div>
             </div>
             <div class="lg:mt-36">
                 <div>
-                    <h2 class="font-bold tracking-[3px] lg:text-[24px] lg:mt-8 dark:text-white duration-700"> Autres
+                    <h2 class="font-bold tracking-[3px] 2xl:text-[24px] lg:text-[20px] mt-8 dark:text-white duration-700">
+                        Autres
                         Compétences</h2>
 
                 </div>
                 <div
-                    class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:justify-center dark:text-white duration-700">
+                    class="mt-4 flex flex-col items-center lg:flex-row 2xl:gap-16 lg:gap-10 lg:justify-center dark:text-white duration-700">
                     <div class=" mt-6  gap-1 items-center card-dev">
                         <div class="flex flex-col items-center">
-                            <figma class="w-16 h-16 lg:w-32 lg:h-32"></figma>
-                            <p class="lg:text-[24px] font-bold tracking-widest">Figma</p>
+                            <figma class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></figma>
+                            <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Figma</p>
 
                         </div>
                     </div>
                     <div class=" mt-6 flex gap-1 items-center card-dev">
                         <div class="flex flex-col items-center">
-                            <adobe class="w-16 h-16 lg:w-32 lg:h-32"></adobe>
-                            <p class="lg:text-[24px] font-bold tracking-widest">Suite Adobe</p>
+                            <adobe class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></adobe>
+                            <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Suite Adobe</p>
 
                         </div>
                     </div>
                     <div class=" mt-6 flex gap-1 items-center card-dev">
                         <div class="flex flex-col items-center">
-                            <davinci class="w-16 h-16 lg:w-32 lg:h-32"></davinci>
-                            <p class="lg:text-[24px] font-bold tracking-widest">Davinci Resolve</p>
+                            <davinci class="w-20 h-20 2xl:w-32 2xl:h-32 lg:w-26 lg:h-26"></davinci>
+                            <p class="2xl:text-[24px] lg:text-[18px] font-bold tracking-widest">Davinci Resolve</p>
                         </div>
                     </div>
 
@@ -183,19 +190,21 @@ import davinci from '../components/logo/davinci.vue';
 
         <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">
             <div>
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] ">Mes Projets
+                <h2
+                    class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] lg:text-[24px] ">
+                    Mes Projets
                 </h2>
-                <div class="bar-title h-1 mt-1 w-[200px]"></div>
+                <div class="bar-title h-1 mt-1 2xl:w-[200px] lg:w-[170px] w-[130px]"></div>
             </div>
 
             <div>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
                 <div class="flex  justify-center ">
-                    <div class="lg:mt-16 flex gap-11 card-projet">
-                        <img src="/images/UFCarene.png" alt="" class="w-[250px] rounded-md">
+                    <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
+                        <img src="/images/UFCarene.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
                         <div>
-                            <p class="text-[28px] font-bold ">UFC Arene</p>
-                            <p class="lg:text-[24px]">Mise en place du site spécialisé sur l'arène d'Unified
+                            <p class="text-[28px] font-bold mt-4 lg:mt-0">UFC Arene</p>
+                            <p class="2xl:text-[24px] lg:text-[18px]">Mise en place du site spécialisé sur l'arène d'Unified
                                 Champions Club.
                                 Système d'inscription + participation au tournois.
                                 Produit avec <span class="text-blue-400"> wordpress</span> + <span class="text-red-400">
@@ -205,11 +214,12 @@ import davinci from '../components/logo/davinci.vue';
                 </div>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
                 <div class="flex  justify-center ">
-                <div class="lg:mt-16 flex gap-11 card-projet">
-                    <img src="/images/axolott.png" alt="" class="w-[250px] rounded-md">
+                    <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
+                    <img src="/images/axolott.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
                     <div>
-                        <p class="text-[28px] font-bold ">Axolott App</p>
-                        <p class="lg:text-[24px]">Mise en place d'une application mobile avec interaction et base
+                        <p class="text-[28px] font-bold mt-4 lg:mt-0">Axolott App</p>
+                        <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'une application mobile avec
+                            interaction et base
                             de
                             données.
                             Produit avec <span class="text-green-400">Vue3js</span> + <span
@@ -266,35 +276,38 @@ import davinci from '../components/logo/davinci.vue';
                                     </div>
                                                                                                                         </a>
                                                                                                                             </div>
-                                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                            <div class="flex justify-center">
-                                                                                                                                                                                                                                                                                                                                <div class="mt-4 w-60  card-jeu">
-                                                                                                                                                                                                                                                                                                                                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
-                                                                                                                                                                                                                                                                                                                                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
-                                                                                                                                                                                                                                                                                                                                        <div class="mt-1">
-                                                                                                                                                                                                                                                                                                                                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
-                                                                                                                                                                                                                                                                                                                                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
-                                                                                                                                                                                                                                                                                                                                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
-                                                                                                                                                                                                                                                                                                                                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
-                                                                                                                                                                                                                                                                                                                                                    Slider</span>.
-                                                                                                                                                                                                                                                                                                                                            </p>
-                                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                                    </a>
-                                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                            </div>                                                                                                                                                                       </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="flex justify-center">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="mt-4 w-60  card-jeu">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="mt-1">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Slider</span>.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>                                                                                                                                                                       </div> -->
         </div>
         <!-- me contacter -->
         <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">
             <div>
-                <h2 class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] ">Me contacter
+                <h2
+                    class="mt-8 text-lg font-bold tracking-wider dark:text-white duration-700 2xl:text-[28px] lg:text-[24px] ">
+                    Me contacter
                     pour un
                     projet</h2>
-                <div class="bar-title h-1 mt-1 w-[400px]"></div>
-                <p class="mt-4 lg:text-[24px]">E-Mail : <a href="mailto:contact@maximegolfier.fr"
+                <div class="bar-title h-1 mt-1 lg:w-[400px]"></div>
+                <p class="mt-4 2xl:text-[24px] lg:text-[18px]">E-Mail : <a href="mailto:contact@maximegolfier.fr"
                         class="text-orange-400">contact@maximegolfier.fr</a>
                 </p>
-                <p class="mt-2 lg:text-[24px]">Numéro : 07 71 07 25 94</p>
-                <p class="mt-2 lg:text-[24px]">Ou directement sur la page<RouterLink to="/contact" class="text-orange-400">
+                <p class="mt-2 2xl:text-[24px] lg:text-[18px]">Numéro : 07 71 07 25 94</p>
+                <p class="mt-2 2xl:text-[24px] lg:text-[18px]">Ou directement sur la page<RouterLink to="/contact"
+                        class="text-orange-400">
                         Contact
                     </RouterLink>
                 </p>
@@ -320,6 +333,12 @@ import davinci from '../components/logo/davinci.vue';
 
 .card-projet {
     width: 70%;
+}
+
+@media screen and (max-width: 910px) {
+    .card-projet {
+        width: 90%;
+    }
 }
 
 .card-projet:hover {
