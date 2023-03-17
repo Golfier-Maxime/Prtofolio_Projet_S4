@@ -199,6 +199,7 @@ import davinci from '../components/logo/davinci.vue';
 
             <div>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <!-- ufc arene -->
                 <div class="flex  justify-center ">
                     <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
                         <img src="/images/UFCarene.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
@@ -213,85 +214,41 @@ import davinci from '../components/logo/davinci.vue';
                     </div>
                 </div>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <!-- projet axolott app-->
                 <div class="flex  justify-center ">
                     <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
-                    <img src="/images/axolott.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
-                    <div>
-                        <p class="text-[28px] font-bold mt-4 lg:mt-0">Axolott App</p>
-                        <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'une application mobile avec
-                            interaction et base
-                            de
-                            données.
-                            Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                class="text-blue-400">Tailwind</span> + <span class="text-yellow-400">FireBase</span>.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
-        </div>
-        <!-- 
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://www.axolottapp.maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/axolott.png" alt="">
-                        <div class="mt-1">
-                            <p class="ml-1 mr-1 text-lg">Axolott App</p>
-                            <p class="text-xs ml-1 mr-1">Mise en place d'une application mobile avec interaction et base
+                        <img src="/images/axolott_app.png" alt=""
+                            class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
+                        <div>
+                            <p class="text-[28px] font-bold mt-4 lg:mt-0">Axolott App</p>
+                            <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'une application mobile avec
+                                interaction et base
                                 de
                                 données.
                                 Produit avec <span class="text-green-400">Vue3js</span> + <span
                                     class="text-blue-400">Tailwind</span> + <span class="text-yellow-400">FireBase</span>.
                             </p>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div>
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://www.axolott.maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/axolott.png" alt="">
-                        <div class="mt-1">
-                            <p class="ml-1 mr-1 text-lg">Axolott Landing Page</p>
-                            <p class="ml-1 mr-1 text-xs">Mise en place d'une landing page pour l'application Axolott.
+                <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <!-- projet axolott landing page -->
+                <div class="flex  justify-center ">
+                    <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
+                        <img src="/images/axolott.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
+                        <div>
+                            <p class="text-[28px] font-bold mt-4 lg:mt-0">Axolott Landing Page</p>
+                            <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'une landing page pour l'application
+                                Axolott.
                                 Produit avec <span class="text-blue-400">HTML</span> + <span
                                     class="text-blue-400">Grid</span>.
                             </p>
                         </div>
-                    </a>
+                    </div>
                 </div>
+                <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
+                <p class="mt-6 lg:mt-10 lg:mx-20">Si vous voulez voir plus de projet aller sur la page : Projets</p>
             </div>
-            <div class="flex justify-center">
-                <div class="mt-4 w-60  card-jeu">
-                    <a class="  " href="https://tiktak.maximegolfier.fr/">
-                        <img class="rounded-t-md  " src="/images/tiktak.png" alt="">
-                        <div class="mt-1">
-                            <p class="ml-1 mr-1 text-lg">Tik-Tak</p>
-                            <p class="text-xs ml-1 mr-1">Mise en place d'un site de vente de montre connecter
-                                customisable par le
-                                        client.
-                                        Produit avec <span class="text-green-400">Vue3js</span> + <span
-                                            class="text-blue-400">tailwind</span> + <span class="text-green-400">Supabase</span>.
-                                    </p>
-                                    </div>
-                                                                                                                        </a>
-                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="flex justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="mt-4 w-60  card-jeu">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a class="  " href="https://tpwordpress.maximegolfier.fr/">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <img class="rounded-t-md  " src="/images/MC.png" alt="">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="mt-1">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="ml-1 mr-1 text-lg">Mountain Climbers</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="text-xs ml-1 mr-1">Mise en place d'un site vitrine pour débuter avec wordpress.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Produit avec <span class="text-blue-400">Wordpress</span> + <span
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    class="text-red-400">Avada</span> + <span class="text-red-400">Revolution
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Slider</span>.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>                                                                                                                                                                       </div> -->
         </div>
         <!-- me contacter -->
         <div class="ml-4 mr-4 dark:text-white duration-700 lg:mx-20 lg:mt-36">
