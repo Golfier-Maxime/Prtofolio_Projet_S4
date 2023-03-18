@@ -17,7 +17,8 @@
                     class="mt-16 text-lg lg:text-[20px] 2xl:text-[28px] font-bold tracking-wider dark:text-white duration-700">
                     Le projet</h2>
                 <div class="bar-title h-1 mt-2 2xl:w-[150px] lg:w-[110px]"></div>
-                <p class="lg:mt-16 lg:text-[18px]">Axolott est un projet universitaire de fin de première année en groupe.
+                <p class="lg:mt-16 lg:text-[18px]">Axolott est un projet universitaire de fin de première année en groupe de
+                    trois.
                     Le
                     but était de
                     créer un
