@@ -68,7 +68,7 @@
                         sont présentent pour souligner les call-to-action ou les éléments importants du site.
                     </p>
                 </div>
-                <img src="/images/axolott_font.png" alt="" class="lg:w-[700px] rounded-lg">
+                <img src="/images/axolott_font.jpg" alt="" class="lg:w-[700px] rounded-lg">
             </div>
             <div class="flex justify-center lg:lg:mt-20">
                 <img src="/images/axolott_bye.png" alt="" class="lg:w-[400px]">
