@@ -235,13 +235,13 @@ import davinci from '../components/logo/davinci.vue';
                 <!-- projet axolott landing page -->
                 <div class="flex  justify-center ">
                     <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
-                        <img src="/images/axolott.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
+                        <img src="/images/tiktak.png" alt="" class="2xl:w-[250px] lg:w-[200px] rounded-md mt-4 lg:mt-0">
                         <div>
-                            <p class="text-[28px] font-bold mt-4 lg:mt-0">Axolott Landing Page</p>
-                            <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'une landing page pour l'application
-                                Axolott.
-                                Produit avec <span class="text-blue-400">HTML</span> + <span
-                                    class="text-blue-400">Grid</span>.
+                            <p class="text-[28px] font-bold mt-4 lg:mt-0">Tik-Tak</p>
+                            <p class="2xl:text-[24px] lg:text-[18px]">Mise en place d'un site de vente de montre connecter
+                                customisable par le client.
+                                Produit avec <span class="text-green-400">Vue3js</span> + <span
+                                    class="text-blue-400">Tailwind</span>+ <span class="text-green-400">Supabase</span>.
                             </p>
                         </div>
                     </div>

@@ -16,12 +16,12 @@
             <p class="mt-4 2xl:text-[24px] lg:text-[18px]  dark:text-white duration-700">Étudiant de 23 ans, actuellement en
                 deuxième
                 année en
-                MMI (Métiers du Multimédia et de l’Internet) de Montbéliard.
+                MMI (Métiers du Multimédia et de l'Internet) de Montbéliard.
             <p class="mt-4 2xl:text-[24px] lg:text-[18px] dark:text-white duration-700">
                 Passionné par le web et son
                 fonctionnement, le
                 métier de développeur
-                web, m'interesse car je considere que ce sont dans ces domaines que l'on
+                web, m'interesse car je consideres que ce sont dans ces domaines que l'on
                 fasconne les
                 techniques, les outils, et les medias de demain.</p>
             </p>

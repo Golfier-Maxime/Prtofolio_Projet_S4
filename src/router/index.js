@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/contact.vue'
 import AproposView from '../views/apropos.vue'
 import ProjetsView from '../views/projets.vue'
+import AxolottAppView from '../views/projets/axolottapp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/projets',
       name: 'Projets',
       component: ProjetsView
+    },
+    {
+      path: '/axolottapp',
+      name: 'AxolottApp',
+      component: AxolottAppView
     },
   ]
 })
