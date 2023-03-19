@@ -15,7 +15,7 @@
             <p class="mt-4 lg:text-[24px]">Numéro : 07 71 07 25 94</p>
         </div>
         <div class="lg:mx-80">
-            <form action="https://formsubmit.co/contact@maximegolfier.fr" class="space-y-8">
+            <form action="/contact@maximegolfier.fr" class="space-y-8">
                 <div>
                     <label for="email" class="block mb-2 mt-4 lg:text-[24px]  dark:text-white duration-700">E-Mail</label>
                     <input type="email" id="email"
