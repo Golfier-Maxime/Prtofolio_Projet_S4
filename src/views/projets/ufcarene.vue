@@ -71,7 +71,7 @@
                         certain sujet.
                     </p>
                 </div>
-                <img src="/images/ufcarene_font.png" alt="" class="lg:w-[700px] rounded-lg mt-8 lg:mt-0">
+                <img src="/images/ufcarene_font.jpg" alt="" class="lg:w-[700px] rounded-lg mt-8 lg:mt-0">
             </div>
             <div class="flex justify-center lg:mt-20">
                 <img src="/images/ufcarene.png" alt="" class="lg:w-[400px] mt-16 lg:mt-0 rounded-lg">

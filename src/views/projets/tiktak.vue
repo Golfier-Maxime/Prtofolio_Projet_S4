@@ -55,7 +55,7 @@
                         sont présentent pour souligner les call-to-action ou les éléments importants du site.
                     </p>
                 </div>
-                <img src="/images/tiktak_color.png" alt="" class="lg:w-[700px] lg:h-[250px] mt-8  lg:mt-16">
+                <img src="/images/tiktak_color.jpg" alt="" class="lg:w-[700px] lg:h-[250px] mt-8  lg:mt-16">
             </div>
             <div class="flex flex-col lg:flex-row justify-center lg:mt-20 lg:gap-16">
                 <div>
@@ -68,7 +68,7 @@
                         professionnel.
                     </p>
                 </div>
-                <img src="/images/tiktak_font.png" alt="" class="lg:w-[600px] lg:h-[200px] rounded-lg mt-8 lg:mt-16">
+                <img src="/images/tiktak_font.jpg" alt="" class="lg:w-[600px] lg:h-[200px] rounded-lg mt-8 lg:mt-16">
             </div>
             <div class="flex justify-center lg:mt-20">
                 <img src="/images/tiktak.png" alt="" class="lg:w-[400px] mt-16 lg:mt-0 rounded-lg">
