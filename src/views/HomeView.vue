@@ -241,7 +241,7 @@ import davinci from '../components/logo/davinci.vue';
                     </div>
                 </RouterLink>
                 <div class="bar-neutral bg-Dark-Blue dark:bg-B-White h-1 mt-16 lg:mx-20 w-[100hv]"></div>
-                <!-- projet axolott landing page -->
+                <!-- projet tiktak -->
                 <RouterLink to="/tiktak">
                     <div class="flex  justify-center ">
                         <div class="lg:mt-16 flex flex-col lg:flex-row  lg:gap-11 card-projet">
