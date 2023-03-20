@@ -36,10 +36,9 @@
                         L'Axolotl</h3>
                     <div class="bar-title h-1 mt-2 2xl:w-[140px] w-[120px]"></div>
                     <p class="lg:mt-16 mt-8 lg:text-[18px]">L'axolotl est l'animal parfait pour nous représenter.
-                        Il y a une multitude d'axolotl différent comme le nombre de quète disponible.
-                        En plus il est parfait pour être modifiable à volonté, de toute les couleurs habillez le
-                        comme vous le voulez.
-                    </p>
+                        Il y a une multitude d'axolotl différent comme le nombre de quête disponible.
+                        En plus il est parfait pour être modifiable à volonté, de toutes les couleurs habillez-le
+                        comme vous le voulez.</p>
                 </div>
                 <img src="/images/axolott_mascot.png" alt="" class="lg:w-[600px] lg:h-[270px] mt-8 lg:mr-8">
             </div>
@@ -49,13 +48,13 @@
                         class="mt-16 text-lg lg:text-[20px] 2xl:text-[28px] font-bold tracking-wider dark:text-white duration-700">
                         Design</h3>
                     <div class="bar-title h-1 mt-2 2xl:w-[100px] w-[80px]"></div>
-                    <p class="lg:mt-16 mt-8 lg:text-[18px]">Ces couleurs représente l'esprit Axolott. Les deux couleurs
+                    <p class="lg:mt-16 mt-8 lg:text-[18px]">Ces couleurs représentent l'esprit Axolott. Les deux couleurs
                         principales que sont les
-                        violets,
+                        violets;
                         représente
-                        le coté jeux et ludique, nous prenons comme exemple le site Twitch. Quant aux deux couleurs
+                        le côté jeux et ludique, nous prenons comme exemple le site Twitch. Quant aux deux couleurs
                         toniques, celle-ci
-                        sont présentent pour souligner les call-to-action ou les éléments importants du site.
+                        sont présentes pour souligner les call-to-action ou les éléments importants du site.
                     </p>
                 </div>
                 <img src="/images/axolott_color.png" alt="" class="lg:w-[700px] mt-8 lg:mt-0">
