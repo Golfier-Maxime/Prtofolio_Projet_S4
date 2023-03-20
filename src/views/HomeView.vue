@@ -53,7 +53,7 @@ import davinci from '../components/logo/davinci.vue';
                             suis-je ?</h2>
                         <div class="bar-title h-1 mt-2 2xl:w-[200px] lg:w-[150px] w-[130px]"></div>
                     </div>
-                    <p class="mt-4 2xl:text-[24px] lg:text-[18px]  dark:text-white duration-700">Étudiant de 23 ans,
+                    <p class="mt-4 2xl:text-[24px] lg:text-[18px]  dark:text-white duration-700">Étudiant de 23 ans;
                         actuellement en
                         deuxième
                         année en
@@ -62,13 +62,13 @@ import davinci from '../components/logo/davinci.vue';
                         Passionné par le web et son
                         fonctionnement, le
                         métier de développeur
-                        web, m'interesse car je considere que ce sont dans ces domaines que l'on
-                        fasconne les
+                        web, m'interesse car je considere que ce sont dans ces domaines que l'ont
+                        Fasconne les
                         techniques, les outils, et les medias de demain.</p>
                     </p>
 
                     <p class="mt-4 2xl:text-[24px] lg:text-[18px] dark:text-white duration-700">
-                        Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'éllaborer des sites
+                        Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'élaborer des sites
                         web
                         toujours plus
                         innovants afin d'en apprendre plus sur les nouvelles technologie.
