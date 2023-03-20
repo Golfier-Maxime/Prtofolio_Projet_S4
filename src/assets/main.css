@@ -140,6 +140,19 @@ body {
     transition: 0.1s;
 }
 
+@media screen and (max-width: 1024px) {
+    .outer-cursor {
+        display: none;
+    }
+
+    .inner-cursor.grow {
+        display: none;
+    }
+
+    .inner-cursor {
+        display: none;
+    }
+}
 
 /* BUTTON DARK MODE */
 
