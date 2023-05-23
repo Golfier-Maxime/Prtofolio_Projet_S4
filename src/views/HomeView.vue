@@ -10,7 +10,7 @@ import figma from '../components/logo/figma.vue';
 import adobe from '../components/logo/adobe.vue';
 import davinci from '../components/logo/davinci.vue';
 
-
+<
 
 </script>
 
