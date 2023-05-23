@@ -16,7 +16,7 @@
             <p class="mt-4 lg:text-[24px]">Numéro : 07 71 07 25 94</p>
         </div>
         <div class="lg:mx-80">
-            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-8">
+            <form action="" method="POST" class="space-y-8">
                 <input type="hidden" name="access_key" value="">
                 <div>
                     <label for="email" class="block mb-2 mt-4 lg:text-[24px]  dark:text-white duration-700">E-Mail</label>
@@ -38,7 +38,7 @@
                         class="block p-2.5 w-full mt-4 lg:text-[18px] bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                         placeholder="Message"></textarea>
                 </div>
-                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <input type="hidden" name="redirect" value="">
                 <button type="submit" class="">Envoyer</button>
             </form>
         </div>
