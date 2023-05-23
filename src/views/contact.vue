@@ -17,7 +17,7 @@
         </div>
         <div class="lg:mx-80">
             <form action="https://api.web3forms.com/submit" method="POST" class="space-y-8">
-                <input type="hidden" name="access_key" value="6c199d9f-bd2b-40fb-b83f-538406f464a7">
+                <input type="hidden" name="access_key" value="">
                 <div>
                     <label for="email" class="block mb-2 mt-4 lg:text-[24px]  dark:text-white duration-700">E-Mail</label>
                     <input type="email" id="email"
