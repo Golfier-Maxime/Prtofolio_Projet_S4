@@ -309,9 +309,13 @@ import davinci from '../components/logo/davinci.vue';
     }
 }
 
+.card-projet {
+    transition: 0.3s;
+}
+
 .card-projet:hover {
     scale: 1.2;
-    transition: 0.3s;
+    
 }
 
 .card-dev:hover {
